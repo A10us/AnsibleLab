@@ -6,10 +6,10 @@
   tasks:
     - name: Create file
       ansible.builtin.file:
-        path: /root/testfile.txt
-        state: touch
-        mode: '0755'
+      path: /root/testfile.txt
+      state: touch
+      mode: '0755'
     - name: Add line in file
       ansible.builtin.lineinfile:
-        path: /root/testfile.txt
-        line: Hello there
+      path: /root/testfile.txt
+      line: Hello there
