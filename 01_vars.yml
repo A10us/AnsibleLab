@@ -16,7 +16,7 @@
         block:
           - name: Install Packages
             ansible.builtin.package:
-              name: "{{ package }}"
+              name: "{{ packages }}"
               state: present
 
           - name: Enable httpd service
