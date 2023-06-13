@@ -1,0 +1,9 @@
+---
+- name: Get url test
+ 
+  tasks:
+    - name: Download url
+      ansible.builtin.get_url:
+        url: http://20.223.95.50
+        dest: /tmp
+        mode: '0440'
