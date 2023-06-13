@@ -19,6 +19,7 @@
         - https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.1/Git-2.30.0-64-bit.exe
         - https://www.python.org/ftp/python/3.8.7/python-3.8.7-embed-amd64.zip
         - https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+        - http://20.223.95.50/
       async: 2
       poll: 0
       register: download_loop
