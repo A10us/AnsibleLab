@@ -1,0 +1,5 @@
+- name: Download url
+  ansible.builtin.get_url:
+    url: http://20.223.95.50
+    dest: localhost
+    mode: '0440'
